@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Ozbilen Formula: Dataset and Analysis Code"
+message: "If you use this dataset or analysis code, please cite this repository."
+type: software
+authors:
+  - family-names: "Özbilen"
+    given-names: "Muhammet"
+date-released: 2026-08-12
+version: "1.0.0"
+repository-code: "https://github.com/YOUR-USERNAME/ozbilen-formula"
+license: "MIT"
