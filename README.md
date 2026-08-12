@@ -5,7 +5,7 @@ This area includes the dataset and analysis code for the new formula that was de
 
 This repository contains the dataset, statistical analysis code, and figures supporting the study:
 
-"Individualised Intravenous Iron Dosing Based on Body Size, Sex, And Menstrual Blood Loss: Development And In Silico Evaluation"
+"Ozbilen Formula: Dataset and Analysis Code"
 
 ## Authors
 
