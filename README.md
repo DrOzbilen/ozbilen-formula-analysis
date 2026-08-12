@@ -1,51 +1,45 @@
 # ozbilen-formula-analysis
-This area includes the dataset and analysis code for the new formula that was developed for iron dosing (Ozbilen Formula).
 
-# The New Intravenous Iron Dosing Formula
+# Ozbilen Formula: Dataset and Analysis Code
 
-This repository contains the dataset, statistical analysis code, and figures supporting the study:
+This repository contains the dataset, formula implementations, statistical
+analysis code, and results associated with the development and evaluation of
+the Ozbilen Formula for intravenous iron dosing.
 
-"Ozbilen Formula: Dataset and Analysis Code"
+## Study
 
-## Authors
+**Ozbilen Formula: Dataset and Analysis Code**
 
-Muhammet Özbilen
+The Ozbilen Formula was developed as an alternative approach for estimating
+individual intravenous iron requirements. The analyses in this repository
+compare the Ozbilen Formula with established intravenous iron dosing
+approaches, including the Ganzoni Formula and the Simplified Dosing Table.
 
-## Study Overview
+The repository is intended to facilitate transparency, reproducibility, and
+independent evaluation of the methodology.
 
-This study evaluates a new intravenous iron dosing formula and compares its estimated iron requirements with the Ganzoni formula and Simplified Dosing Table (SDT).
+---
 
-## Dataset
+## Repository Contents
 
-The dataset contains simulated observations generated for the evaluation of intravenous iron dosing approaches.
-
-The dataset does not contain individual-level patient data.
-
-## Variables
-
-- Sex
-- Height
-- Weight
-- Hemoglobin
-- Ferritin
-- Pictorial blood loss assessment chart (PBAC) score
-- Body surface area (BSA)
-- Estimated blood volume (eBV)
-- Ganzoni dose
-- Simplified Dosing Table dose
-- New Formula Standard Version dose
-- New Formula Advanced Version dose
-- Dose differences between the new formula versions and the current formulas
-
-## Analysis
-
-Statistical analyses were performed using R.
-
-The analysis includes:
-
-- Descriptive statistics
-- 
-
-## Reproducibility
-
-The analysis scripts are provided in the `scripts/` directory.
+```text
+.
+├── data/
+│   ├── simulated_dataset.csv
+│   └── variable_dictionary.csv
+│
+├── scripts/
+│   ├── 01_data_generation.R
+│   ├── 02_data_preparation.R
+│   ├── 03_descriptive_analysis.R
+│   ├── 04_statistical_analysis.R
+│   └── 05_figures.R
+│
+├── results/
+│   ├── tables/
+│   └── figures/
+│
+├── CITATION.cff
+├── LICENSE
+├── DATA_LICENSE.md
+└── README.md 
