@@ -28,15 +28,9 @@ independent evaluation of the methodology.
 │   └── Dataset (Ozbilen Formula).parquet
 │
 ├── scripts/
-│   ├── 01_data_generation.R
-│   ├── 02_data_preparation.R
-│   ├── 03_descriptive_analysis.R
-│   ├── 04_statistical_analysis.R
-│   └── 05_figures.R
-│
-├── results/
-│   ├── tables/
-│   └── figures/
+│   ├── Dataset generation codes (Ozbilen Formula).R
+│   ├── Analysis and tables (Ozbilen Formula).R
+│   └── Figures (Ozbilen Formula).R
 │
 ├── CITATION.cff
 ├── LICENSE
