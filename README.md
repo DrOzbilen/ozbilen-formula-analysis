@@ -25,8 +25,7 @@ independent evaluation of the methodology.
 ```text
 .
 ├── data/
-│   ├── simulated_dataset.csv
-│   └── variable_dictionary.csv
+│   └── Dataset (Ozbilen Formula).parquet
 │
 ├── scripts/
 │   ├── 01_data_generation.R
