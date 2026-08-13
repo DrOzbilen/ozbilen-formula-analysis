@@ -1,5 +1,3 @@
-# ozbilen-formula-analysis
-
 # Ozbilen Formula: Dataset and Analysis Code
 
 This repository contains the dataset, formula implementations, statistical
